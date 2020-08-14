@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YandexTest.Server.Api", "YandexTest.Server.Api\YandexTest.Server.Api.csproj", "{1F6A72ED-32D5-4EA7-94E0-EB9B20780FB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Data", "2 Data", "{9F95775D-34DD-40B9-8A9C-ACBCD1AE92FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 Business", "4 Business", "{E6B72EB9-6D75-482D-AE60-4C0D91F194AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 Api", "5 Api", "{43BC0AB7-0114-440C-83D7-2E4F5CFE9364}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YandexTest.Data.OpenWeather", "YandexTest.Data.OpenWeather\YandexTest.Data.OpenWeather.csproj", "{233ACE4D-03BA-44F5-B085-21B2ADE0A194}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Core", "1 Core", "{0AF65902-C9E2-4F3D-8EE3-C5E5CFE5069D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YandexTest.Core.RestBase", "YandexTest.Core.RestBase\YandexTest.Core.RestBase.csproj", "{DAB10D3C-EDFB-4582-A9C8-5606DB0B3CF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YandexTest.Business.Module", "YandexTest.Business.Module\YandexTest.Business.Module.csproj", "{91F6BA38-B7F7-43A8-868C-49B26480F3F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YandexTest.Data.Telegram", "YandexTest.Data.Telegram\YandexTest.Data.Telegram.csproj", "{6DE0D97B-F673-406F-85CD-48394229FBAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YandexTest.Data.Nominatim", "YandexTest.Data.Nominatim\YandexTest.Data.Nominatim.csproj", "{DDE8E752-885C-4B5F-BCF9-8DC80A329AF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F6A72ED-32D5-4EA7-94E0-EB9B20780FB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F6A72ED-32D5-4EA7-94E0-EB9B20780FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F6A72ED-32D5-4EA7-94E0-EB9B20780FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F6A72ED-32D5-4EA7-94E0-EB9B20780FB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{233ACE4D-03BA-44F5-B085-21B2ADE0A194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{233ACE4D-03BA-44F5-B085-21B2ADE0A194}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{233ACE4D-03BA-44F5-B085-21B2ADE0A194}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{233ACE4D-03BA-44F5-B085-21B2ADE0A194}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAB10D3C-EDFB-4582-A9C8-5606DB0B3CF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAB10D3C-EDFB-4582-A9C8-5606DB0B3CF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAB10D3C-EDFB-4582-A9C8-5606DB0B3CF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAB10D3C-EDFB-4582-A9C8-5606DB0B3CF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91F6BA38-B7F7-43A8-868C-49B26480F3F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91F6BA38-B7F7-43A8-868C-49B26480F3F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91F6BA38-B7F7-43A8-868C-49B26480F3F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91F6BA38-B7F7-43A8-868C-49B26480F3F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DE0D97B-F673-406F-85CD-48394229FBAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DE0D97B-F673-406F-85CD-48394229FBAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DE0D97B-F673-406F-85CD-48394229FBAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DE0D97B-F673-406F-85CD-48394229FBAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDE8E752-885C-4B5F-BCF9-8DC80A329AF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE8E752-885C-4B5F-BCF9-8DC80A329AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE8E752-885C-4B5F-BCF9-8DC80A329AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE8E752-885C-4B5F-BCF9-8DC80A329AF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1F6A72ED-32D5-4EA7-94E0-EB9B20780FB2} = {43BC0AB7-0114-440C-83D7-2E4F5CFE9364}
+		{233ACE4D-03BA-44F5-B085-21B2ADE0A194} = {9F95775D-34DD-40B9-8A9C-ACBCD1AE92FF}
+		{DAB10D3C-EDFB-4582-A9C8-5606DB0B3CF3} = {0AF65902-C9E2-4F3D-8EE3-C5E5CFE5069D}
+		{91F6BA38-B7F7-43A8-868C-49B26480F3F9} = {E6B72EB9-6D75-482D-AE60-4C0D91F194AF}
+		{6DE0D97B-F673-406F-85CD-48394229FBAF} = {9F95775D-34DD-40B9-8A9C-ACBCD1AE92FF}
+		{DDE8E752-885C-4B5F-BCF9-8DC80A329AF2} = {9F95775D-34DD-40B9-8A9C-ACBCD1AE92FF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4024689A-4109-4201-B9A4-A3EA4F9C8FFF}
+	EndGlobalSection
+EndGlobal

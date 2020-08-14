@@ -1,0 +1,35 @@
+image: docker:stable
+
+services:
+  - name: docker:dind
+
+variables:
+  IMAGE_NAME: registry.gitlab.com/gasstation/yandex-telegram-bot
+  GIT_STRATEGY: clone
+  DOCKER_HOST: tcp://docker:2375
+  DOCKER_DRIVER: overlay2
+  # See https://github.com/docker-library/docker/pull/166
+  DOCKER_TLS_CERTDIR: ""
+
+stages:
+  - build
+
+before_script:
+  - docker info
+
+build:
+  stage: build
+  tags:
+    - dev
+  only:
+    - tags
+  script:
+    - docker build
+        --tag $IMAGE_NAME:$CI_COMMIT_TAG
+        --tag $IMAGE_NAME:latest .
+    - echo "${REGISTRY_PASSWORD}" | docker login --username "${REGISTRY_USER}" --password-stdin registry.gitlab.com
+    - docker push $IMAGE_NAME:$CI_COMMIT_TAG
+    - docker push $IMAGE_NAME:latest
+    - docker logout registry.gitlab.com
+
+    - docker rmi $IMAGE_NAME:$CI_COMMIT_TAG

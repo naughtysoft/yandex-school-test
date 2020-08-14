@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\YandexTest.Data.Nominatim\YandexTest.Data.Nominatim.csproj" />
+    <ProjectReference Include="..\YandexTest.Data.OpenWeather\YandexTest.Data.OpenWeather.csproj" />
+    <ProjectReference Include="..\YandexTest.Data.Telegram\YandexTest.Data.Telegram.csproj" />
+  </ItemGroup>
+
+</Project>
